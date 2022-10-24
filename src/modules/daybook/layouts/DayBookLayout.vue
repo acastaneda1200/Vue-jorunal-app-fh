@@ -1,0 +1,23 @@
+<template>
+  <Navbar />
+  <div class="d-flex">
+      <EntryList />
+  </div>
+  <div class="col">
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+import { defineAsyncComponent } from 'vue'
+export default {
+  components: {
+    Navbar: defineAsyncComponent(() => import('../components/Navbar.vue')),
+    EntryList: defineAsyncComponent(() => import('../components/EntryList.vue'))
+  }
+}
+</script>
+
+<style>
+
+</style>
