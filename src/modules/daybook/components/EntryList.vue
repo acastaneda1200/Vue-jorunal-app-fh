@@ -5,6 +5,9 @@
         class="form-control"
         placeholder="Buscar entradas"/>
     </div>
+    <div class="entry-scollarea">
+        Entry
+    </div>
   </div>
 </template>
 
