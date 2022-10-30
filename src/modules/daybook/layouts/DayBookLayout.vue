@@ -1,10 +1,12 @@
 <template>
   <Navbar />
   <div class="d-flex">
-      <EntryList />
-  </div>
-  <div class="col">
-    <router-view></router-view>
+      <div class="col-4">
+        <EntryList />
+      </div>
+      <div class="col">
+        <router-view />
+      </div>
   </div>
 </template>
 
