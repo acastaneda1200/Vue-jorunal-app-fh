@@ -2,21 +2,21 @@ export default () => ({
     isLoading: true,
     entries: [
         {
-            id: new Date().getTime(),
+            id: 1,
             date: new Date().toDateString(),
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempore dignissimos perferendis facere quam molestias ratione delectus, fugiat aperiam voluptatibus voluptatem exercitationem inventore, minima quae dolor esse magni alias quis!",
+            text: "okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
             picture: null,
         },
         {
-            id: new Date().getTime() + 1000,
+            id: 1 + 1000,
             date: new Date().toDateString(),
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iust",
+            text: "bbbbbbbbbbbbbb",
             picture: null,
         },
         {
-            id: new Date().getTime() + 3000,
+            id: 1 + 3000,
             date: new Date().toDateString(),
-            text: "adipisicing elit. Iust",
+            text: "cccccccccccccccc",
             picture: null,
         }
     ]
